@@ -1,1 +1,0 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.camunda.consulting.connector.ExampleConnectorConfiguration
