@@ -1,0 +1,20 @@
+zeebe:
+  client:
+    cloud:
+      cluster-id: 2b16a1b6-8db2-427c-9359-ff1ead9a8db6
+      client-id: lXyNwc9qK8Iu0SDx9H_aJXDFZN1lFtf8
+      client-secret: 2BrghhTkVzNtX8-qJwyQmNP8WTdtufddF7YDsmGYkXA1cTbKSdAcUBWkKaHGMmr_
+      region: bru-2
+    security:
+      enabled: false
+    broker:
+      gateway-address: 2b16a1b6-8db2-427c-9359-ff1ead9a8db6.bru-2.zeebe.camunda.io:443
+spring:
+  main:
+    web-application-type: none
+camunda:
+  connector:
+    webhook:
+      enabled: false
+    polling:
+      enabled: false
